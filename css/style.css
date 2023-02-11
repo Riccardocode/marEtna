@@ -22,3 +22,22 @@
 .carousel-black{
   background-color: rgba(0, 0, 0, 0.5);
 }
+.h2_rooms{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card_img{
+ height: 12rem;
+}
+.card_container{
+  display: flex !important;
+  justify-content: center !important;
+  justify-items: center !important;
+}
+.col{
+  display: flex !important;
+  justify-content: center !important;
+  justify-items: center !important;
+}
+
