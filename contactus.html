@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+
+    <title>Vacation</title>
+</head>
+<body>
+  
+    <!--
+    <header id="home">
+      <div id="top_line">
+        <div class="container">
+          <div class="row" style="margin-top: 1rem;">
+            
+            <div class="col col-sm-6">
+              <i class="fa fa-phone" aria-hidden="true"> (+39) XXX XXXXXXX</i>
+            </div>
+            <div class="col col-sm-6">
+              <i class="fa fa-envelope" aria-hidden="true"> info@XXXXX.com</i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="margin:0;">
+    -->
+
+    <header class="sticky-top" >  
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+          
+          <div class="col-sm-6 nav-personalized">
+                <a class="navbar-brand" href="#"><img src="img/svg/Vacation-Logo.png" height="45" width="55" alt=""></a>
+          </div>
+        
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="col-md-6 collapse navbar-collapse nav-personalized" id="navbarNavAltMarkup">
+           
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Rooms</a>
+              <a class="nav-link" href="#">Tours</a>
+              <a class="nav-link" href="#">Contact Us</a>
+            </div>
+          </div>
+        
+        </nav>
+      
+     
+    </header>
+
+
+    <!--Main contact form-->
+    <div class="container ">
+        <div class="row row-content align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-4" >
+                <h5 style="text-align: center;">Our Address</h5>
+                <address style="text-align: center;">
+                    1 Awesome Way<br />
+                    boulevard of broken dreams<br />
+                    Sicily
+                </address>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="col">
+                    <a role="button" class="btn btn-link" href="tel:+391258469745"><i class="fa fa-phone fa-lg text-primary"></i> +39-XXX-XXX-YYYY</a><br />
+                </div>
+                <div class="col">
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa-regular fa-envelope"></i> info@holidays.com</a>
+                </div>
+                
+            </div>
+            <div class="col col-sm-12 col-md-4 " style="margin-top: 1rem;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d50408.44588530358!2d15.229110850871653!3d37.84793744133423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1staormina!5e0!3m2!1sit!2slu!4v1676290809043!5m2!1sit!2slu" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12">
+                <h2>Send us your Feedback</h2>
+                <hr />
+            </div>
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label"> First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstname" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label"> Last Name</label>
+                        <div class="col-md-10">   
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label"> Contact Tel</label>
+                        <div class="col-5 col-md-3">    
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area Code" />
+                        </div>
+                        <div class="col-7">    
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label"> Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email"> 
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col offset-md-2">
+                            May we contact you?
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" /> 
+                                <label for="contactYes" class="form-check-label"> Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                                <label for="contactNo" class="form-check-label"> No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="yourFeedback" class="col-md-2 col-form-label"> Your FeedBack:</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="textArea" name="feedback" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-2">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>    
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <!--#############FOOTER##################-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img src="img/svg/Vacation Logo.svg" width="80" height="80" alt="">
+                    </a>
+                    
+                </div>
+                <div class="col col-sm-4">
+                    <span style="align-self: center;" class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+                </div>
+                <div class="col col-sm-4 d-flex align-items-center">
+                    <i style="color:blue;margin:0 0.5rem 0 0.5rem;" class="fa-brands fa-twitter"></i>
+                    <i style="color:blue;margin:0 0.5rem 0 0.5rem;" class="fa-brands fa-facebook"></i>
+                    <i style="color:blue;margin:0 0.5rem 0 0.5rem;" class="fa-brands fa-instagram"></i>
+                    
+                            
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+  
+     
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script/index.js"></script>
+  </body>
+</html>
