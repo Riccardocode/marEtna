@@ -4,7 +4,7 @@ const apartments = [
       title: "The Heaven",
       category: "Room",
       price: 99.99,
-      img: "../img/rooms/A.jpg",
+      img: "./img/rooms/A.jpg",
       desc: `A cozy and inviting room with warm lighting and comfortable seating, perfect for relaxation and rejuvenation. `,
     },
     {
@@ -12,7 +12,7 @@ const apartments = [
       title: "The Retreat",
       category: "Apartment",
       price: 150.00,
-      img: "../img/rooms/E.jpg",
+      img: "./img/rooms/E.jpg",
       desc: `A private and peaceful room with calming colors and elegant decor, ideal for quiet reflection and meditation.`,
     },
     {
@@ -20,7 +20,7 @@ const apartments = [
       title: "The Sanctuary",
       category: "Room",
       price: 67.50,
-      img: "../img/rooms/B.jpg",
+      img: "./img/rooms/B.jpg",
       desc: `A serene and beautiful space with natural light and soothing accents, designed for rejuvenation and renewal.`,
     },
     {
@@ -28,7 +28,7 @@ const apartments = [
       title: "The Escape",
       category: "Apartment",
       price: 210,
-      img: "../img/rooms/C.jpg",
+      img: "./img/rooms/C.jpg",
       desc: `A stylish and cozy room with a contemporary design, perfect for escaping the hustle and bustle of daily life and enjoy relax.`,
     },
     {
@@ -36,7 +36,7 @@ const apartments = [
       title: "Ivy Heights",
       category: "Apartment",
       price: 195,
-      img: "../img/rooms/D.jpg",
+      img: "./img/rooms/D.jpg",
       desc: `Nestled among the trees, Ivy Heights offers a tranquil escape from the bustle of city life`,
     },
     {
@@ -44,7 +44,7 @@ const apartments = [
       title: "Pinecrest",
       category: "Villa",
       price: 350,
-      img: "../img/rooms/11.png",
+      img: "./img/rooms/11.png",
       desc: `Experience the beauty of nature in every season with a home at Pinecrest.`,
     },
     {
@@ -52,7 +52,7 @@ const apartments = [
       title: "Riverwalk",
       category: "Villa",
       price: 420,
-      img: "../img/rooms/12.png",
+      img: "./img/rooms/12.png",
       desc: `Take a stroll along the river just steps from your front door at Riverwalk Apartments.`,
     },
     {
@@ -60,7 +60,7 @@ const apartments = [
       title: "Lakeside",
       category: "Villa",
       price: 410,
-      img: "../img/rooms/13.png",
+      img: "./img/rooms/13.png",
       desc: `Wake up to breathtaking views of the lake every day at Lakeside Villa. `,
     },
     {
@@ -68,7 +68,7 @@ const apartments = [
       title: "Highpoint",
       category: "Villa",
       price: 390,
-      img: "../img/rooms/14.png",
+      img: "./img/rooms/14.png",
       desc: `Rise above the rest and enjoy spectacular views from your Villa at Highpoint.`,
     },
     {
@@ -76,7 +76,7 @@ const apartments = [
       title: "CityEscape",
       category: "Room",
       price: 250,
-      img: "img/rooms/15.png",
+      img: "./img/rooms/15.png",
       desc: `Immerse yourself in the city's vibrant energy with a home at Cityscape Apartments.`,
     },
   ];
