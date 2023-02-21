@@ -76,7 +76,7 @@ const apartments = [
       title: "CityEscape",
       category: "Room",
       price: 250,
-      img: "../img/rooms/15.png",
+      img: "img/rooms/15.png",
       desc: `Immerse yourself in the city's vibrant energy with a home at Cityscape Apartments.`,
     },
   ];
