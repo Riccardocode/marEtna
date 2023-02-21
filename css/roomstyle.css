@@ -168,11 +168,11 @@ main {
 }
 /*
 =============== 
-Menu
+apartments
 ===============
 */
 
-.menu {
+.apartments {
   padding: 5rem 0;
 }
 .title {
@@ -216,7 +216,7 @@ Menu
   gap: 3rem 2rem;
   justify-items: center;
 }
-.menu-item {
+.apartments-item {
   display: grid;
   gap: 1rem 2rem;
   max-width: 25rem;
@@ -244,7 +244,7 @@ Menu
 }
 
 @media screen and (min-width: 768px) {
-  .menu-item {
+  .apartments-item {
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
     max-width: 40rem;
