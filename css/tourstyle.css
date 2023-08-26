@@ -186,7 +186,7 @@ tours
   margin-left: auto;
   margin-right: auto;
 }
-.btn-container {
+.btn-container-tours {
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
@@ -208,7 +208,7 @@ tours
   background: var(--clr-gold);
   color: var(--clr-white);
 }
-.section-center {
+.section-center-tours {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -235,12 +235,26 @@ tours
 .item-info h4 {
   margin-bottom: 0.5rem;
 }
+.item-info header h3{
+  margin-bottom: 0.5rem;
+  color: var(--clr-grey-2);
+}
 .price {
   color: var(--clr-gold);
 }
 .item-text {
   margin-bottom: 0;
   padding-top: 1rem;
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* Number of lines to display */
+    overflow: hidden;
+}
+#single-page-tour-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }
 
 @media screen and (min-width: 768px) {

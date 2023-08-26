@@ -117,7 +117,7 @@ const apartments = [
       `;
     }).join('');
   }
-
+ //End Home page
 
   function displaySingleRoomItem(id){
     let room = apartments.find(item => item.id == id);
@@ -140,7 +140,7 @@ const apartments = [
   }
   }
 
-  //End Home page
+  
   //Start Rooms.html
   function displayapartmentsItems(apartmentsItems){
     let displayapartments = apartmentsItems.map(function(item){
@@ -161,7 +161,9 @@ const apartments = [
     </article>`;
     });
     displayapartments = displayapartments.join("");
-    sectionCenter.innerHTML = displayapartments;
+    if(displayapartments){
+      sectionCenter.innerHTML = displayapartments;
+    }
   }
   
   function displayapartmentsButtons(){
