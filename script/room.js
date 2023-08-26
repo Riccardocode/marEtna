@@ -95,7 +95,30 @@ const apartments = [
   
   //filter
   
-  
+  //Start Home page
+  function roomsHomePage(){
+    return apartments.map(function(item){
+      return `
+      <div class="col col-md-6 col-lg-4">
+            <div class="card" style="width: 25rem;margin-bottom: 1rem;">
+              <img class="card_img" src="${item.img}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="margin-bottom: 0;">${item.title}</h5>
+                <i class="fa-regular fa-user" style="color:rgb(199, 199, 199);font-size: 10px;margin: 0;"> 3</i>
+                <i class="fa-solid fa-shower" style="color:rgb(199, 199, 199);font-size: 12px;margin: 0;"> 2</i>
+                <i class="fa-solid fa-bed" style="color:rgb(199, 199, 199);font-size: 12px;margin: 0;"> 1</i>
+                <p class="card-text">${item.desc}</p>
+                <div class="col">
+                  <a href="room.html?id=${item.id}" class="btn btn-primary">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      `;
+    }).join('');
+  }
+
+
   function displaySingleRoomItem(id){
     let room = apartments.find(item => item.id == id);
     if (room) {
@@ -116,15 +139,20 @@ const apartments = [
       return '<p>Room not found</p>';
   }
   }
-  
+
+  //End Home page
+  //Start Rooms.html
   function displayapartmentsItems(apartmentsItems){
     let displayapartments = apartmentsItems.map(function(item){
       return `<article class="apartments-item">
       <img src=${item.img}  class="photo" alt="${item.title}">
       <div class="item-info">
         <header>
+        <a href="room.html?id=${item.id}">
           <h4>${item.title}</h4>
-          <h4 class="price">$${item.price}</h4>
+        </a>
+          
+        <h4 class="price">$${item.price}</h4>
         </header>
         <p class="item-text">
           ${item.desc}

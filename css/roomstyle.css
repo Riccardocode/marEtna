@@ -232,9 +232,14 @@ apartments
   justify-content: space-between;
   border-bottom: 0.5px dotted var(--clr-grey-5);
 }
-.item-info h4 {
+.item-info a h4 {
   margin-bottom: 0.5rem;
 }
+.item-info a{
+  text-decoration: none;
+  color: var(--clr-grey-1);
+}
+
 .price {
   color: var(--clr-gold);
 }
