@@ -12,6 +12,10 @@
   z-index: 999999;
 }
 
+.logo-img{
+  width: 20%;
+  height: auto;
+}
 .nav-personalized{
   display: flex;
   align-items: center;
@@ -47,4 +51,21 @@ footer{
 
 header{
   margin:0;
+}
+
+.photo-single-room{
+  width: 50%;
+  height: auto;
+}
+#room-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.single-room-cat{
+  width: 50%;
+  display: flex;
+  justify-content:space-around;
+  
 }

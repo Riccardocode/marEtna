@@ -96,6 +96,26 @@ const apartments = [
   //filter
   
   
+  function displaySingleRoomItem(id){
+    let room = apartments.find(item => item.id == id);
+    if (room) {
+      return `
+      <h1>${room.title}</h1>
+      <img src="${room.img}" class="photo-single-room" alt="${room.title}">
+      <div class="single-room-cat">
+        <h3>Category: ${room.category}</h3>
+        <h3>Price: ${room.price}</h3>
+        <br>
+       
+      </div>
+      <p>Services to be added</p>
+      <p>${room.desc}</p>
+      `;
+  } else {
+      // Handle the case where 'room' is not found based on the given 'id'
+      return '<p>Room not found</p>';
+  }
+  }
   
   function displayapartmentsItems(apartmentsItems){
     let displayapartments = apartmentsItems.map(function(item){
