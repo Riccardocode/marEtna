@@ -133,6 +133,7 @@ const apartments = [
       </div>
       <p>Services to be added</p>
       <p>${room.desc}</p>
+      <a class="btn-rooms-page-book-now" href="mailto:email@example.com?subject=Booking for ${room.title}&body=Price: $${room.price}">Book now</a>
       `;
   } else {
       // Handle the case where 'room' is not found based on the given 'id'
@@ -157,6 +158,9 @@ const apartments = [
         <p class="item-text">
           ${item.desc}
         </p>
+        <div style="display:flex;justify-content:center">
+        <a class="btn-rooms-page-book-now" href="mailto:email@example.com?subject=Booking for ${item.title}&body=Price: $${item.price}">Book now</a>
+        </div>
       </div>
     </article>`;
     });

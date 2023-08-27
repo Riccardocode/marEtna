@@ -247,6 +247,20 @@ apartments
   margin-bottom: 0;
   padding-top: 1rem;
 }
+.btn-rooms-page-book-now{
+  background-color: var(--clr-primary-3);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 50%;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  
+
+}
 
 @media screen and (min-width: 768px) {
   .apartments-item {
